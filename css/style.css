@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+}
+
+#lezioni {
+  margin-top: 5%
+}
+
+#lezioni h3 {
+  margin: 5px;
+}
+
+.left .col-lg-4 {
+  padding-top: 5%;
+}
+.right .col-lg-8 {
+  padding-top: 5%;
+}

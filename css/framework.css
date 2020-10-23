@@ -1,6 +1,11 @@
 .debug {
-  height: 100px;
-  background: red;
+  height: 100%;
+  min-height: 200px;
+  border: 1px solid red;
+}
+
+.debug [class*="col-"] {
+  border: 1px solid red;
 }
 
 * {
