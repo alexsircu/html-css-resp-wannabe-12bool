@@ -6,17 +6,58 @@ img {
   height: 200px;
 }
 
-#lezioni {
-  margin-top: 5%
+.grey {
+  width: 100%;
+  height: 100%;
+  background: #f9f9f9;
 }
 
+#lezioni {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 #lezioni h3 {
   margin: 5px;
 }
-
-.left .col-lg-4 {
+#lezioni .left .col-lg-4 {
   padding-top: 5%;
 }
-.right .col-lg-8 {
+#lezioni .right .col-lg-8 {
   padding-top: 5%;
+}
+
+#steps {
+  margin-bottom: 5%;
+}
+#steps .first .col-lg-10 {
+  padding-top: 5%;
+}
+#steps .second .col-lg-10 {
+  padding-top: 5%;
+}
+#steps .third .col-lg-10 {
+  padding-top: 5%;
+}
+#steps h3 {
+  margin: 5px;
+}
+
+#why .first .col-lg-10 {
+  padding-top: 3%;
+}
+#why .second .col-lg-10 {
+  padding-top: 3%;
+}
+#why .third .col-lg-10 {
+  padding-top: 3%;
+}
+#why img {
+  height: 260px;
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+#why h3,
+#why p {
+  margin-bottom: 10px;
 }
