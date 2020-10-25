@@ -13,8 +13,8 @@ img {
 }
 
 #lezioni {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 2.5%;
 }
 #lezioni h3 {
   margin: 5px;
@@ -27,7 +27,8 @@ img {
 }
 
 #steps {
-  margin-bottom: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 #steps .first .col-lg-10 {
   padding-top: 5%;
@@ -60,4 +61,39 @@ img {
 #why h3,
 #why p {
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #why .first p,
+  #why .second p {
+    padding: 0 5%;
+  }
+  #why hr {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  p {
+    margin: 0 2%;
+  }
+  #lezioni,
+  #why {
+    background: #F2F2CD;
+  }
+
+  #seps {
+    background: white;
+  }
+
+  #lezioni img,
+  #steps img {
+    height: 120px;
+  }
+
+  #why img {
+    height: 160px;
+  }
 }
